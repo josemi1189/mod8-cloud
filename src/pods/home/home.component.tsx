@@ -7,10 +7,10 @@ export const Home = () => {
   return (
     <>
       <Link to={switchRoutes.miembros} className={style.link}>
-        <Card urlImage="/logo_lemoncode.png" title={"LemonCode"} />
+        <Card urlImage="logo_lemoncode.png" title={"LemonCode"} />
       </Link>
       <Link to={switchRoutes.rickandmorty} className={style.link}>
-        <Card urlImage="/logo_rick-and-morty.png" title={"Rick & Morty"} />
+        <Card urlImage="logo_rick-and-morty.png" title={"Rick & Morty"} />
       </Link>
     </>
   );
