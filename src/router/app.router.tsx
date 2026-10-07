@@ -11,7 +11,7 @@ import { MemberListProvider, SearchProvider } from "@/core/context";
 
 export const AppRouter: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path={switchRoutes.home} element={<HomeScene />} />
         <Route path={`${switchRoutes.miembros}*`} element={<MembersRouter />} />

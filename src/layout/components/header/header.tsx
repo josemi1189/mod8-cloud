@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
       <div className={style.content}>
         <div className={style.logo}>
           <Link to={switchRoutes.home}>
-            <img src="/logo.webp" alt="Logo" />
+            <img src={`${import.meta.env.BASE_URL}logo.webp`} alt="Logo" />
           </Link>
         </div>
         <div className={style.title}>
