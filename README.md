@@ -2,9 +2,9 @@
 
 ## Enlaces
 
-[Repositorio GitHub](https://github.com/josemi1189/modulo-cloud-gh-pages-manual).
+[Repositorio GitHub](https://github.com/josemi1189/mod8-cloud)
 
-[GitHub Pages](https://josemi1189.github.io/modulo-cloud-gh-pages-manual/)
+[GitHub Pages](https://josemi1189.github.io/mod8-cloud/)
 
 ## Desplegar en Github Pages de forma manual.
 

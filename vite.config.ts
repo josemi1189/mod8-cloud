@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/modulo-cloud-gh-pages-manual/",
+  base: "/mod8-cloud/",
   plugins: [tsConfigPaths(), checker({ typescript: true }), react()],
   resolve: {
     alias: {
