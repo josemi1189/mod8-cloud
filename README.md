@@ -9,9 +9,9 @@
 ## Desplegar en Github Pages de forma manual.
 
 1. Creamos nuestro repositorio en **GitHub** y lo enlazamos con nuestra carpeta local.
-2. Instalamos dependencias: `npm ci`.
+2. Instalamos dependencias: `pnpm ci`.
 3. Generamos una nueva rama que deberá llamarse `gh-pages`.
-4. Generamos una build: `npm run build`.
+4. Generamos una build: `pnpm run build`.
 5. En esta rama debemos dejar solo el contenido de la carpeta `/dist` creada en la **build**, eliminando el resto de archivos y carpetas y dejando su contenido en la raíz del repositorio.
 
    ![Build](/docs/build.jpg)
